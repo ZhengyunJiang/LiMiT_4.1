@@ -1,0 +1,49 @@
+# ===== Python 通用缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== Jupyter 临时文件 =====
+.ipynb_checkpoints/
+
+# ===== Conda虚拟环境（不要上传整个环境文件夹）=====
+.conda/
+env/
+venv/
+.venv/
+
+# ===== PyInstaller 打包产物（exe、app、build缓存）=====
+build/
+dist/
+*.spec
+*.exe
+*.app
+
+# ===== 运行必需数据文件（不推送至GitHub，仓库只保留说明）=====
+fpscores.pkl.gz
+linker-f-smiles_new_202609.xlsx
+
+# ===== 图片、压缩包、模型大文件 =====
+*.png
+*.jpg
+*.jpeg
+*.ico
+*.icns
+*.zip
+*.tar.gz
+*.h5
+*.pt
+
+# ===== Windows系统垃圾文件 =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 密钥、配置文件（防止泄露）=====
+.env
+*.key
+credentials.json
+
+# ===== 日志文件 =====
+*.log
